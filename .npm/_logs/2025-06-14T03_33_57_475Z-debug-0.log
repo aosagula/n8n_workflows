@@ -1,0 +1,140 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.2
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/node/.n8n/nodes/.npmrc
+5 silly config load:file:/home/node/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm pack n8n-nodes-qdrant@0.1.13
+8 verbose argv "pack" "n8n-nodes-qdrant@0.1.13" "--registry" "https://registry.npmjs.org" "--loglevel" "warn"
+9 verbose logfile logs-max:10 dir:/home/node/.npm/_logs/2025-06-14T03_33_57_475Z-
+10 verbose logfile /home/node/.npm/_logs/2025-06-14T03_33_57_475Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/n8n-nodes-qdrant 384ms (cache miss)
+13 http fetch GET 200 https://registry.npmjs.org/n8n-nodes-qdrant 12ms (cache hit)
+14 silly tarball no local data for https://registry.npmjs.org/n8n-nodes-qdrant/-/n8n-nodes-qdrant-0.1.13.tgz. Extracting by manifest.
+15 http fetch GET 200 https://registry.npmjs.org/n8n-nodes-qdrant/-/n8n-nodes-qdrant-0.1.13.tgz 34ms (cache miss)
+16 notice
+17 notice package: n8n-nodes-qdrant@0.1.13
+18 notice Tarball Contents
+19 notice 1.0kB LICENSE.md
+19 notice 4.7kB README.md
+19 notice 2.1kB dist/credentials/qdrant.svg
+19 notice 377B dist/credentials/QdrantApi.credentials.d.ts
+19 notice 1.4kB dist/credentials/QdrantApi.credentials.js
+19 notice 842B dist/credentials/QdrantApi.credentials.js.map
+19 notice 211B dist/nodes/Qdrant/descriptions/BatchUpdatePoints.d.ts
+19 notice 1.5kB dist/nodes/Qdrant/descriptions/BatchUpdatePoints.js
+19 notice 839B dist/nodes/Qdrant/descriptions/BatchUpdatePoints.js.map
+19 notice 201B dist/nodes/Qdrant/descriptions/ClearPayload.d.ts
+19 notice 1.5kB dist/nodes/Qdrant/descriptions/ClearPayload.js
+19 notice 905B dist/nodes/Qdrant/descriptions/ClearPayload.js.map
+19 notice 209B dist/nodes/Qdrant/descriptions/CollectionExists.d.ts
+19 notice 928B dist/nodes/Qdrant/descriptions/CollectionExists.js
+19 notice 613B dist/nodes/Qdrant/descriptions/CollectionExists.js.map
+19 notice 775B dist/nodes/Qdrant/descriptions/Commons.d.ts
+19 notice 5.1kB dist/nodes/Qdrant/descriptions/Commons.js
+19 notice 3.3kB dist/nodes/Qdrant/descriptions/Commons.js.map
+19 notice 199B dist/nodes/Qdrant/descriptions/CountPoints.d.ts
+19 notice 1.5kB dist/nodes/Qdrant/descriptions/CountPoints.js
+19 notice 848B dist/nodes/Qdrant/descriptions/CountPoints.js.map
+19 notice 209B dist/nodes/Qdrant/descriptions/CreateCollection.d.ts
+19 notice 6.4kB dist/nodes/Qdrant/descriptions/CreateCollection.js
+19 notice 3.6kB dist/nodes/Qdrant/descriptions/CreateCollection.js.map
+19 notice 213B dist/nodes/Qdrant/descriptions/CreatePayloadIndex.d.ts
+19 notice 1.8kB dist/nodes/Qdrant/descriptions/CreatePayloadIndex.js
+19 notice 1.1kB dist/nodes/Qdrant/descriptions/CreatePayloadIndex.js.map
+19 notice 209B dist/nodes/Qdrant/descriptions/DeleteCollection.d.ts
+19 notice 663B dist/nodes/Qdrant/descriptions/DeleteCollection.js
+19 notice 447B dist/nodes/Qdrant/descriptions/DeleteCollection.js.map
+19 notice 203B dist/nodes/Qdrant/descriptions/DeletePayload.d.ts
+19 notice 1.9kB dist/nodes/Qdrant/descriptions/DeletePayload.js
+19 notice 1.1kB dist/nodes/Qdrant/descriptions/DeletePayload.js.map
+19 notice 213B dist/nodes/Qdrant/descriptions/DeletePayloadIndex.d.ts
+19 notice 1.3kB dist/nodes/Qdrant/descriptions/DeletePayloadIndex.js
+19 notice 798B dist/nodes/Qdrant/descriptions/DeletePayloadIndex.js.map
+19 notice 201B dist/nodes/Qdrant/descriptions/DeletePoints.d.ts
+19 notice 1.5kB dist/nodes/Qdrant/descriptions/DeletePoints.js
+19 notice 905B dist/nodes/Qdrant/descriptions/DeletePoints.js.map
+19 notice 203B dist/nodes/Qdrant/descriptions/DeleteVectors.d.ts
+19 notice 1.9kB dist/nodes/Qdrant/descriptions/DeleteVectors.js
+19 notice 1.1kB dist/nodes/Qdrant/descriptions/DeleteVectors.js.map
+19 notice 203B dist/nodes/Qdrant/descriptions/DistanceMatrixOffsets.d.ts
+19 notice 2.4kB dist/nodes/Qdrant/descriptions/DistanceMatrixOffsets.js
+19 notice 1.4kB dist/nodes/Qdrant/descriptions/DistanceMatrixOffsets.js.map
+19 notice 199B dist/nodes/Qdrant/descriptions/DistanceMatrixPairs.d.ts
+19 notice 2.3kB dist/nodes/Qdrant/descriptions/DistanceMatrixPairs.js
+19 notice 1.4kB dist/nodes/Qdrant/descriptions/DistanceMatrixPairs.js.map
+19 notice 198B dist/nodes/Qdrant/descriptions/GetCollection.d.ts
+19 notice 638B dist/nodes/Qdrant/descriptions/GetCollection.js
+19 notice 436B dist/nodes/Qdrant/descriptions/GetCollection.js.map
+19 notice 933B dist/nodes/Qdrant/descriptions/index.d.ts
+19 notice 2.2kB dist/nodes/Qdrant/descriptions/index.js
+19 notice 498B dist/nodes/Qdrant/descriptions/index.js.map
+19 notice 207B dist/nodes/Qdrant/descriptions/ListCollections.d.ts
+19 notice 512B dist/nodes/Qdrant/descriptions/ListCollections.js
+19 notice 375B dist/nodes/Qdrant/descriptions/ListCollections.js.map
+19 notice 209B dist/nodes/Qdrant/descriptions/OverwritePayload.d.ts
+19 notice 2.4kB dist/nodes/Qdrant/descriptions/OverwritePayload.js
+19 notice 1.4kB dist/nodes/Qdrant/descriptions/OverwritePayload.js.map
+19 notice 203B dist/nodes/Qdrant/descriptions/PayloadFacets.d.ts
+19 notice 2.3kB dist/nodes/Qdrant/descriptions/PayloadFacets.js
+19 notice 1.4kB dist/nodes/Qdrant/descriptions/PayloadFacets.js.map
+19 notice 209B dist/nodes/Qdrant/descriptions/QueryBatchPoints.d.ts
+19 notice 1.5kB dist/nodes/Qdrant/descriptions/QueryBatchPoints.js
+19 notice 838B dist/nodes/Qdrant/descriptions/QueryBatchPoints.js.map
+19 notice 199B dist/nodes/Qdrant/descriptions/QueryPoints.d.ts
+19 notice 4.5kB dist/nodes/Qdrant/descriptions/QueryPoints.js
+19 notice 2.6kB dist/nodes/Qdrant/descriptions/QueryPoints.js.map
+19 notice 211B dist/nodes/Qdrant/descriptions/QueryPointsGroups.d.ts
+19 notice 5.4kB dist/nodes/Qdrant/descriptions/QueryPointsGroups.js
+19 notice 3.0kB dist/nodes/Qdrant/descriptions/QueryPointsGroups.js.map
+19 notice 203B dist/nodes/Qdrant/descriptions/RetrievePoint.d.ts
+19 notice 1.0kB dist/nodes/Qdrant/descriptions/RetrievePoint.js
+19 notice 644B dist/nodes/Qdrant/descriptions/RetrievePoint.js.map
+19 notice 205B dist/nodes/Qdrant/descriptions/RetrievePoints.d.ts
+19 notice 1.7kB dist/nodes/Qdrant/descriptions/RetrievePoints.js
+19 notice 1.0kB dist/nodes/Qdrant/descriptions/RetrievePoints.js.map
+19 notice 201B dist/nodes/Qdrant/descriptions/ScrollPoints.d.ts
+19 notice 2.5kB dist/nodes/Qdrant/descriptions/ScrollPoints.js
+19 notice 1.5kB dist/nodes/Qdrant/descriptions/ScrollPoints.js.map
+19 notice 197B dist/nodes/Qdrant/descriptions/SetPayload.d.ts
+19 notice 2.2kB dist/nodes/Qdrant/descriptions/SetPayload.js
+19 notice 1.3kB dist/nodes/Qdrant/descriptions/SetPayload.js.map
+19 notice 209B dist/nodes/Qdrant/descriptions/UpdateCollection.d.ts
+19 notice 3.6kB dist/nodes/Qdrant/descriptions/UpdateCollection.js
+19 notice 2.0kB dist/nodes/Qdrant/descriptions/UpdateCollection.js.map
+19 notice 203B dist/nodes/Qdrant/descriptions/UpdateVectors.d.ts
+19 notice 1.7kB dist/nodes/Qdrant/descriptions/UpdateVectors.js
+19 notice 879B dist/nodes/Qdrant/descriptions/UpdateVectors.js.map
+19 notice 201B dist/nodes/Qdrant/descriptions/UpsertPoints.d.ts
+19 notice 1.7kB dist/nodes/Qdrant/descriptions/UpsertPoints.js
+19 notice 817B dist/nodes/Qdrant/descriptions/UpsertPoints.js.map
+19 notice 197B dist/nodes/Qdrant/descriptions/utils.d.ts
+19 notice 1.1kB dist/nodes/Qdrant/descriptions/utils.js
+19 notice 972B dist/nodes/Qdrant/descriptions/utils.js.map
+19 notice 347B dist/nodes/Qdrant/Qdrant.node.d.ts
+19 notice 7.8kB dist/nodes/Qdrant/Qdrant.node.js
+19 notice 3.2kB dist/nodes/Qdrant/Qdrant.node.js.map
+19 notice 434B dist/nodes/Qdrant/Qdrant.node.json
+19 notice 2.1kB dist/nodes/Qdrant/qdrant.svg
+19 notice 1.5kB dist/package.json
+19 notice 36.0kB dist/tsconfig.tsbuildinfo
+19 notice 0B index.js
+19 notice 1.3kB package.json
+20 notice Tarball Details
+21 notice name: n8n-nodes-qdrant
+22 notice version: 0.1.13
+23 notice filename: n8n-nodes-qdrant-0.1.13.tgz
+24 notice package size: 33.9 kB
+25 notice unpacked size: 174.3 kB
+26 notice shasum: aa5201b7780cf3ca6ba1d9a4e90ffaff81d73918
+27 notice integrity: sha512-l22j50UV/rlWC[...]6TdTGO81xwpPQ==
+28 notice total files: 105
+29 notice
+30 verbose cwd /home/node/.n8n/nodes
+31 verbose os Linux 6.12.12+bpo-cloud-amd64
+32 verbose node v20.19.2
+33 verbose npm  v10.8.2
+34 verbose exit 0
+35 info ok

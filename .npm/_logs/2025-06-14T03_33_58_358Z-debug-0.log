@@ -1,0 +1,21 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.2
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/node/.n8n/nodes/node_modules/n8n-nodes-qdrant/.npmrc
+5 silly config load:file:/home/node/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--audit" "false" "--fund" "false" "--bin-links" "false" "--install-strategy" "shallow" "--ignore-scripts" "true" "--package-lock" "false" "--registry" "https://registry.npmjs.org"
+9 verbose logfile logs-max:10 dir:/home/node/.npm/_logs/2025-06-14T03_33_58_358Z-
+10 verbose logfile /home/node/.npm/_logs/2025-06-14T03_33_58_358Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 verbose cwd /home/node/.n8n/nodes/node_modules/n8n-nodes-qdrant
+16 verbose os Linux 6.12.12+bpo-cloud-amd64
+17 verbose node v20.19.2
+18 verbose npm  v10.8.2
+19 verbose exit 0
+20 info ok
